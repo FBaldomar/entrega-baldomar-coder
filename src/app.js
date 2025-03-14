@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import swaggerUi from "swagger-ui-express";
-import swaggerDocument from "./swagger.json" assert { type: "json" };
+import swaggerDocument from "./doc/swagger.json" assert { type: "json" };
 
 import usersRouter from "./routes/users.router.js";
 import petsRouter from "./routes/pets.router.js";
